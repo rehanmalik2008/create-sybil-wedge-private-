@@ -9,12 +9,14 @@
     "node": "24.14.0"
   },
   "scripts": {
-    "gen": "node scripts/gen_input_wedge_policy.mjs",
-    "test": "node scripts/test_soundness_adversarial_policy.mjs"
+    "gen:policy": "node scripts/gen_input_wedge_policy.mjs",
+    "test:policy": "node scripts/test_soundness_adversarial_policy.mjs",
+    "gen:escrow": "node scripts/gen_input_wedge_escrow.mjs",
+    "test:escrow": "node scripts/test_soundness_adversarial_escrow.mjs"
   },
   "dependencies": {
     "circom2": "0.2.23",
-    "circomlibjs": "0.1.7",
-    "snarkjs": "0.7.6"
+    "circomlibjs": "^0.1.7",
+    "snarkjs": "^0.7.6"
   }
 }
