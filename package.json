@@ -14,7 +14,9 @@
     "gen:escrow": "node scripts/gen_input_wedge_escrow.mjs",
     "test:escrow": "node scripts/test_soundness_adversarial_escrow.mjs",
     "gen:aggregate": "node scripts/gen_input_wedge_aggregate.mjs",
-    "test:aggregate": "node scripts/test_soundness_adversarial_aggregate.mjs"
+    "test:aggregate": "node scripts/test_soundness_adversarial_aggregate.mjs",
+    "gen:anonymous": "node scripts/gen_input_wedge_anonymous.mjs",
+    "test:anonymous": "node scripts/test_soundness_adversarial_anonymous.mjs"
   },
   "dependencies": {
     "circom2": "0.2.23",
