@@ -1,0 +1,3 @@
+[submodule "vendor/proof-of-personhood"]
+	path = vendor/proof-of-personhood
+	url = https://github.com/rehanmalik2008/Proof-of-Personhood.git

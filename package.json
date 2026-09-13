@@ -1,0 +1,20 @@
+{
+  "name": "sybil-wedge-private",
+  "version": "0.1.0",
+  "description": "Source-available (proprietary evaluation license) -- see EVALUATION-LICENSE.md. Not open source.",
+  "private": true,
+  "type": "module",
+  "license": "SEE EVALUATION-LICENSE.md",
+  "engines": {
+    "node": "24.14.0"
+  },
+  "scripts": {
+    "gen": "node scripts/gen_input_wedge_policy.mjs",
+    "test": "node scripts/test_soundness_adversarial_policy.mjs"
+  },
+  "dependencies": {
+    "circom2": "0.2.23",
+    "circomlibjs": "0.1.7",
+    "snarkjs": "0.7.6"
+  }
+}
